@@ -3,21 +3,21 @@ import time
 from PIL import Image
 import base64
 import io
-import cv2
+import imageio
 import json
 
 url = "http://localhost:8080/completion"
 headers = {"Content-Type": "application/json"}
 
 print("Starting video stream... Wait for a few seconds for the stream to the output to start generating.")
-cap = cv2.VideoCapture(0)
+cap = imageio.get_reader('<video0>')
 
 
 while True:
     # Capture frame-by-frame
-    ret, frame = cap.read()
+    frame = cap.get_next_data()
     # Save the image to a file
-    cv2.imwrite('temp.png', frame)
+    imageio.imsave('temp.png', frame)
     # Open the file in binary mode and convert to base64
     with open('temp.png', 'rb') as file:
         encoded_string = base64.b64encode(file.read()).decode('utf-8')
@@ -44,5 +44,4 @@ while True:
             except json.JSONDecodeError:
                 print("JSONDecodeError: Expecting property name enclosed in double quotes")
 
-cap.release()
-cv2.destroyAllWindows()
+cap.close()
