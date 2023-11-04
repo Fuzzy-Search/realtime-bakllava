@@ -1,3 +1,7 @@
+import os
+os.environ["IMAGEIO_FFMPEG_EXE"] = "/usr/bin/ffmpeg"
+
+
 import requests
 import time
 from PIL import Image
@@ -11,6 +15,7 @@ headers = {"Content-Type": "application/json"}
 
 print("Starting video stream... Wait for a few seconds for the stream to the output to start generating.")
 cap = imageio.get_reader('<video0>')
+
 
 
 while True:
