@@ -21,7 +21,8 @@ image_data = [{"data": encoded_string, "id": 12}]
 data = {"prompt": "USER:[img-12]Describe the image.\nASSISTANT:", "n_predict": 128, "image_data": image_data, "stream": True}
 
 response = requests.post(url, headers=headers, json=data, stream=True)
-
+print("Sent request to the server...")
+print()
 for chunk in response.iter_content(chunk_size=128):
     content = chunk.decode().strip().split('\n\n')[0]
     try:
