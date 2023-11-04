@@ -1,0 +1,5 @@
+requests==2.26.0
+base64==0.1.0
+io==0.0.1
+json==0.1.0
+argparse==1.4.0
