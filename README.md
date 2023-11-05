@@ -46,8 +46,8 @@ cmake --build . --config Release
 ## 🏃‍♀️ Step 3: Running the Demo
 Open a new terminal window and clone the demo app:
 ```
-git clone https://github.com/Fuzzy-Search/realtime-bakllava-1-llama.app.git
-cd realtime-bakllava-1-llama.app
+git clone https://github.com/Fuzzy-Search/realtime-bakllava.git
+cd realtime-bakllava.app
 ```
 ### 🛠 (Optional) Create a new Python virtual environment and activate it
 ```
@@ -64,7 +64,7 @@ python3 src/video_stream.py
 ### 🖼 Simple Picture Drop
 ```
 pip install -r picture_requirements.txt
-python src/picture_drop.py --path /Users/robertlukoshko/Programming/metasearch/jupyters/src/sample_pic.png
+python src/picture_drop.py --path src/sample_pic.png
 ```
 
 

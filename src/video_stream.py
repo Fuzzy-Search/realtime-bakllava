@@ -1,5 +1,6 @@
 import os
-os.environ["IMAGEIO_FFMPEG_EXE"] = "/usr/bin/ffmpeg"
+# Change paht to ffmpeg if needed
+# os.environ["IMAGEIO_FFMPEG_EXE"] = "/path_to/ffmpeg"
 
 
 import requests
