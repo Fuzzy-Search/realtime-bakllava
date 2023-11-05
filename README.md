@@ -2,6 +2,8 @@
 
 Welcome to the delicious world of Bakllava Llama with C++! Follow these steps to get your code running and indulge in AI sweetness! 😋
 
+🚨 Properly tested only with Apple silicon chip
+
 ## 🚀 Step 1: Install Llama C++
 
 First things first, let's get the Llama C++ installed.
