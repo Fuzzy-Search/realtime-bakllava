@@ -47,7 +47,7 @@ cmake --build . --config Release
 Open a new terminal window and clone the demo app:
 ```
 git clone https://github.com/Fuzzy-Search/realtime-bakllava.git
-cd realtime-bakllava.app
+cd realtime-bakllava
 ```
 ### 🛠 (Optional) Create a new Python virtual environment and activate it
 ```
@@ -57,6 +57,9 @@ pip3 install -r requirements.txt
 ```
 ### 🎥 Webcam Script
 To start streaming from your webcam:
+
+! if you have problem with FFMPEG lib, download the source code and in file src/video_stream.py modify second line of code
+
 ```
 python3 src/video_stream.py
 ```
