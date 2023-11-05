@@ -67,6 +67,8 @@ python3 src/video_stream.py
 ```
 
 ### 🖼 Simple Picture Drop
+![Export-1699182386675](https://github.com/Fuzzy-Search/realtime-bakllava/assets/40468118/cc2384d9-1e16-4e94-a02c-47bd703d8ed7)
+
 ```
 pip install -r picture_requirements.txt
 python src/picture_drop.py --path src/sample_pic.png
