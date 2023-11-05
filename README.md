@@ -72,3 +72,7 @@ python src/picture_drop.py --path src/sample_pic.png
 
 
 ## 📝 Enjoy your adventure with Llama C++! 🚀🦙
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Fuzzy-Search/realtime-bakllava&type=Date)](https://star-history.com/#Fuzzy-Search/realtime-bakllava&Date)
