@@ -8,6 +8,10 @@ Welcome to the delicious world of Bakllava Llama with C++! Follow these steps to
 
 similar relevant project: [Be My Eyes" web app](https://github.com/lxe/llavavision#getting-started)
 
+<a href="https://twitter.com/Karmedge" target="_blank"><img src="https://img.shields.io/badge/Twitter-%40karmedge-00000"></a>
+
+<a href="https://www.linkedin.com/in/karmedge" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-karmedge-informational"></a>
+
 ## 🚀 Step 1: Install Llama C++
 
 First things first, let's get the Llama C++ installed.
