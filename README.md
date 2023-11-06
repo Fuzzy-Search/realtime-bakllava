@@ -4,6 +4,10 @@ Welcome to the delicious world of Bakllava Llama with C++! Follow these steps to
 
 🚨 Properly tested only with Apple silicon chip
 
+[youtube installation guide](https://youtu.be/UyRFbGK9QmI)
+
+similar relevant project: [Be My Eyes" web app](https://github.com/lxe/llavavision#getting-started)
+
 ## 🚀 Step 1: Install Llama C++
 
 First things first, let's get the Llama C++ installed.
