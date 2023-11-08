@@ -1,5 +1,5 @@
 import os
-# Change paht to ffmpeg if needed
+# Change path to ffmpeg if needed
 # os.environ["IMAGEIO_FFMPEG_EXE"] = "/path_to/ffmpeg"
 
 
